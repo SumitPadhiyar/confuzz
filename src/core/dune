@@ -1,0 +1,9 @@
+(library
+ (name lwt)
+ (public_name lwt)
+ (synopsis "Monadic promises and concurrent I/O")
+ (wrapped false)
+ (preprocess (pps bisect_ppx -conditional))
+ (libraries bytes result seq cmdliner ocplib-endian afl-persistent str)
+ (flags (:standard -w +A-29))
+ (ocamlopt_flags (:standard -afl-instrument)))
