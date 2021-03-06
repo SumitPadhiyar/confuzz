@@ -17,7 +17,7 @@ opam pin lwt .
 ```
 
 ## Writing test
-- To test Lwt programs, write [Crowbar tests](https://github.com/stedolan/crowbar#writing-tests) that calls into Lwt concurrent code. For examples, refer to  ```examples``` directory.
+- To test Lwt programs, write [Crowbar tests](https://github.com/stedolan/crowbar#writing-tests) that calls into Lwt concurrent code. For examples, refer to  [examples](https://github.com/SumitPadhiyar/confuzz/tree/main/examples) directory.
 
 ## Running test
 - Fuzz as usual with afl-fuzz
