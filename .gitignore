@@ -33,5 +33,4 @@ lib/
 a.out
 
 .vscode/
-examples/*
-!examples/*.ml
+examples/config
